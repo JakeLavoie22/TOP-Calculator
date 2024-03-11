@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Calculator</title>
+
+    <style>
+      html {
+        font-family:'Times New Roman', Times, serif;
+      }
+
+      body{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+      }
+
+      .header{
+        text-align: center;
+        font-size: x-large;
+        margin-top: 30px ;
+        margin-bottom: 30px ;
+    
+      }
+
+      .calculatorBody{
+        border: solid rgba(104, 92, 92, 0.722) 10px;
+        background-color: black;
+        border-radius: 15px;
+        align-self:center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .screenBody{
+        display: flex;
+        border: solid black 1px;
+        background-color: grey;
+        font-size: 50px;
+        height: 78px;
+        margin: 4px;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0px 20px;
+      }
+
+      .buttonsBody{
+        width: 345px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .calcButtonClass{
+        height: 78px;
+        width: 80px;
+        border: solid white 1px;
+        margin: 3px;
+        background-color: teal;
+        border-radius: 5px;
+      }
+      .opButtonClass{
+        height: 78px;
+        width: 80px;
+        border: solid white 1px;
+        margin: 3px;
+        background-color: orange;
+        border-radius: 5px;
+      }
+
+      #zero{
+        width: 165px;
+      }
+
+     
+
+      .allDigits{
+        display: flex;
+        border: solid white 1px;
+        flex-grow: 3;
+      }
+
+      .sideOperators{
+        display: flex;
+        border: solid white 1px;
+        flex-grow: 1;
+        flex-direction: column;
+      }
+
+      .digitBtn{
+        display: flex;
+        border: solid white 1px;
+        color: white;
+        background-color: rgb(0, 68, 128);
+        flex-grow: 1;
+        flex-wrap: wrap;
+        
+      }
+
+      .operator{
+        display: flex;
+        border: solid white 1px;
+        color: white;
+        flex-grow: 1;
+        flex-wrap: wrap;
+      }
+
+
+    
+
+ 
+
+    </style>
+  </head>
+
+  <body>
+    <div class ="header">
+      <h1>Here's a simple Calculator</h1>
+    </div>
+
+    <div class = "calculatorBody">
+      <div class = "screenBody">1234567891</div>
+      <div class = "buttonsBody"></div>
+      </div>
+
+
+  <script type= "text/javascript" defer src="./Calculator.js"></script>
+  </body>
+  </html>
